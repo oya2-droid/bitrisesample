@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.SecondFragment">
+
+    <TextView
+        android:id="@+id/secondTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="format"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/secontToListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go List"/>
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go WebView"/>
+
+</LinearLayout>
